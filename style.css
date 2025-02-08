@@ -4,40 +4,57 @@
     padding: 0px;
 }
 
+#title{
+    text-align: center;
+    color: black;
+    background-color: #FB5A46;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    transition: 0.5s;
+}
+
+#title a{
+    text-decoration: none;
+    color: black;
+}
+
+#title:hover{
+    color: black;
+    background-color: #f54028;
+    border: 3px solid black;
+}
+
 body{
     background-color: #FFC567 ;
     text-align: justify;
     padding: 2rem;
 }
 
-h1{
-    text-align: center;
-    background-color: #FB5A46;
-    border: 3px solid black;
-    box-shadow: 5px px;
-    transition: 0.5s;
-}
-
-h1:hover{
-    color: black;
-    background-color: #FFC567;
-    border: 3px solid black;
-}
-
 .recipes{
-    margin-top: 0.5rem;
+    position: relative;
+    width: 300px;
+    margin-top: 3rem;
     padding: 0.5rem;
     font-weight: 700;
     text-align: justify;
     background-color: #00995E;
     border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+
+}
+.recipes h2{
+    margin: 0.5rem;
+}
+.recipes a{
+    color: black;
+    transition: 0.5s;
+}
+.recipes a:hover{
+    font-size: 18px ;
 }
 
-a{
-    color: black;
-    background-color: #00995E;
-}
 li{
     margin: 1rem;
-
 }
