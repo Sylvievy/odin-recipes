@@ -4,49 +4,56 @@
     padding: 0px;
 }
 
-#title{
-    text-align: center;
-    color: black;
-    background-color: #FB5A46;
-    border: 3px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 5px;
-    transition: 0.5s;
-}
-
-#title a{
-    text-decoration: none;
-    color: black;
-}
-
-#title:hover{
-    color: black;
-    background-color: #f54028;
-    border: 3px solid black;
-}
-
 body{
     background-color: #FFC567 ;
     text-align: justify;
     padding: 2rem;
 }
 
+/* rules for the heading */
+#title{
+    text-align: center;
+    color: black;
+    background-color: #FB5A46;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: -5px 5px;
+    transition: 0.5s;
+}
+
+#title a{
+    color: black;
+}
+
+#title:hover{
+    background-color: #f9442c;
+}
+
+/*  rules for the main in home page*/
+
+.recipes h2{
+    text-align: center;
+}
+
 .recipes{
     position: relative;
     width: 300px;
+    height: auto;
     margin-top: 3rem;
     padding: 0.5rem;
+
     font-weight: 700;
     text-align: justify;
     background-color: #00995E;
     border: 3px solid black;
     border-radius: 5px;
-    box-shadow: 5px 5px;
+    box-shadow: -5px 5px;
 
 }
 .recipes h2{
     margin: 0.5rem;
 }
+
 .recipes a{
     color: black;
     transition: 0.5s;
@@ -57,4 +64,31 @@ body{
 
 li{
     margin: 1rem;
+}
+
+/* rules for recipes pages*/
+img{
+    display: block;
+    justify-content: center;  
+    margin: 0 auto;
+    width: 300px;
+    height: auto; 
+    border: 2px double black;
+    box-shadow: -4px 4px;
+    padding: 5px; 
+    margin: 10px; 
+}
+.rname{
+    width: 300px;
+    margin: 1rem;
+    text-align: center;
+    background-color: #058CD7;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: -5px 5px;
+}
+
+.desc{
+    margin: 1rem;
+    padding: 1rem;
 }
