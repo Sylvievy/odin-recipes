@@ -1,17 +1,20 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
 
 body{
     background-color: #FFC567 ;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1em;
     text-align: justify;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /* rules for the heading */
-#title{
+header{
     text-align: center;
     color: black;
     background-color: #FB5A46;
@@ -19,9 +22,11 @@ body{
     border-radius: 5px;
     box-shadow: -5px 5px;
     transition: 0.5s;
+    margin: 1rem;
 }
 
-#title a{
+a{
+    text-decoration: none;
     color: black;
 }
 
@@ -31,16 +36,12 @@ body{
 
 /*  rules for the main in home page*/
 
-.recipes h2{
-    text-align: center;
-}
-
 .recipes{
     position: relative;
-    width: 300px;
+    /* width: 300px; */
     height: auto;
-    margin-top: 3rem;
-    padding: 0.5rem;
+    margin: 1rem ;
+    padding: 1rem;
 
     font-weight: 700;
     text-align: justify;
@@ -50,28 +51,27 @@ body{
     box-shadow: -5px 5px;
 
 }
+
 .recipes h2{
-    margin: 0.5rem;
+    text-align: center;
 }
+ 
 
 .recipes a{
-    color: black;
     transition: 0.5s;
 }
 .recipes a:hover{
     font-size: 18px ;
 }
 
-li{
-    margin: 1rem;
-}
+
 
 /* rules for recipes pages*/
 img{
     display: block;
-    justify-content: center;  
-    margin: 0 auto;
+    float:inline-end;  
     width: 300px;
+    max-width: 100%;
     height: auto; 
     border: 2px double black;
     box-shadow: -4px 4px;
@@ -79,16 +79,24 @@ img{
     margin: 10px; 
 }
 .rname{
-    width: 300px;
-    margin: 1rem;
+    margin: ;
     text-align: center;
     background-color: #058CD7;
-    border: 3px solid black;
-    border-radius: 5px;
-    box-shadow: -5px 5px;
+    box-shadow: 0px 5px;
 }
 
-.desc{
+.rmain{
     margin: 1rem;
+    padding: 0;
+    background-color: #FB7DA8;
+    border: 3px solid black;
+    font-weight: 600;
+}
+.rmain.desc{
     padding: 1rem;
+    border:none;
+}
+
+.recipes li, .rmain ol, li{
+    margin: 1rem;
 }
