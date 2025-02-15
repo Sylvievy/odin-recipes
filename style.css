@@ -79,7 +79,6 @@ img{
     margin: 10px; 
 }
 .rname{
-    margin: ;
     text-align: center;
     background-color: #058CD7;
     box-shadow: 0px 5px;
@@ -90,11 +89,14 @@ img{
     padding: 0;
     background-color: #FB7DA8;
     border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: -5px 5px;
     font-weight: 600;
 }
 .rmain.desc{
     padding: 1rem;
     border:none;
+    box-shadow: none;
 }
 
 .recipes li, .rmain ol, li{
